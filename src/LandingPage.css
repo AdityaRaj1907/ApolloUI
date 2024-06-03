@@ -1,0 +1,63 @@
+html {
+    background-color: black !important;
+}
+.landing-page{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+table.table {
+    background-color: black;
+    width: 100%;
+    
+}
+
+.patientname {
+    width: 15%;
+    min-width: 225px;
+} 
+.table thead td, .table thead th {
+    border-width: 0 0 1px;
+    /* width: 100%; */
+    color: white !important;
+    
+}
+th{
+    color: white !important
+}
+
+li {
+    color: white;
+}
+.expandable-button{
+    padding-top: 3rem;
+    padding-left: 1rem;
+    color: white;
+    background-color: black;
+
+}
+.expand-button{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+.header-button {
+    font-weight: bold;
+    background-color: #363636;
+    box-sizing: 3px 3px;
+    border-color: transparent;
+    color: whitesmoke;
+} 
+
+.add_user{
+    position: relative;
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+    text-align: right;
+}
+.action {
+    width: 43%;
+}
+
+

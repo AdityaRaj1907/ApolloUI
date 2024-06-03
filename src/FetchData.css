@@ -1,0 +1,35 @@
+.table {
+    color: white;
+}
+
+td.username{
+    width:30%
+}
+
+td.series_description{
+ width: 30%;
+}
+td.scanner_description{
+    width:15%;
+    text-align: left !important;
+}
+td.scanner{
+    width:10%
+}
+td.sequence_type{
+    width:20%;
+}
+
+
+.table td, .table th {
+    border: 1px solid #dbdbdb;
+    border-width: 0 0 1px;
+    padding: 1.5em .75em;
+    vertical-align: top;
+}
+
+.container {
+    max-width: 100%;
+}
+
+

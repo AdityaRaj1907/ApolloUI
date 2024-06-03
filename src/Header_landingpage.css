@@ -1,0 +1,80 @@
+
+.navbar-start{
+    padding-top: 0.5rem;
+ 
+}
+.button.is-dark {
+    font-weight: bold;
+}
+
+nav.navbar {
+    background-color: black;
+}
+.button.is-dark {
+    background-color: #363636;
+    border-color: transparent;
+    color: whitesmoke;
+    margin-right: 10px;
+}     
+.button.Scanner.is-dark {
+    padding: 0px;
+}    
+
+.navbar{
+    color: white;
+    border-bottom: 1px solid #fff;
+    line-height: 1.5;
+    padding: 1rem 0.75rem;
+    position: relative;
+    font-size: 20px;
+    background-color: black;
+
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+
+}
+a.navbar-item {
+    color: white;
+    background-color: black;
+    
+}
+/* a.navbar-item:hover {
+    color: grey !important;
+} */
+.navbar-brand{
+    
+    font-size: 25px;   
+}
+.navbar-dropdown{
+    background-color: black;
+    
+}
+a.navbar-link{
+    font-size: 16px ;
+    background: transparent !important;
+}
+
+.user{
+    color: white;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.navbar-dropdown {
+    background-color: transparent !important; /* Set background color to transparent */
+    box-shadow: none; /* Remove box-shadow */
+    
+  }
+  
+  .navbar-dropdown a.navbar-item {
+    color: #000; /* Set text color */
+  }
+  
+  .navbar-dropdown a.navbar-item:hover {
+    background-color: black !important; /* Prevent background color change on hover */
+  }
+  .navbar-link:not(.is-arrowless)::after {
+    border-color: white !important;
+  }
+
+
+

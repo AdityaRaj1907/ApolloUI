@@ -1,0 +1,85 @@
+html {
+    background-color: black !important;
+}
+.landing-page{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+table.table {
+    background-color: black;
+    width: 100%;
+    
+}
+.table-parent{
+    margin-top:20px;
+}
+section.study-list{
+    padding-bottom: 180px;
+}
+.section{
+    padding: 3rem 1.5rem
+}
+
+.patientname {
+    width: 20%;
+    min-width: 225px;
+}
+ 
+.series_desc{
+    width: 31%;
+}
+.table thead td, .table thead th {
+    border-width: 0 0 1px;
+    
+    /* width: 100%; */
+    color: white !important;
+    
+}
+
+
+th{
+    color: white !important
+} 
+
+li {
+    color: white;
+}
+.expandable-button{
+    padding-top: 3rem;
+    padding-left: 1rem;
+    color: white;
+    background-color: black;
+
+}
+.expand-button{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+.header-button {
+    font-weight: bold;
+    background-color: #363636;
+    box-sizing: 3px 3px;
+    border-color: transparent;
+    color: whitesmoke;
+} 
+
+.add_user{
+    position: relative;
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+    text-align: right;
+}
+
+
+    
+
+.action{
+    padding-left: 10rem;
+}
+
+
+   
+

@@ -1,0 +1,45 @@
+.apollo-header{
+    color: white;
+    border-bottom: 1px solid #fff;
+    line-height: 1.5;
+    padding: 1rem 0.75rem;
+    position: relative;
+    font-size: 25px;
+    margin-left: 0.5rem;
+    background-color: black;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+   
+}
+
+a {
+    color: white !important;
+    cursor: pointer;
+    text-decoration: none;
+}
+.header-table {
+    width: 100%;
+}
+  
+.header-table td {
+vertical-align: top; /* Align content to the top */
+text-align: center; /* Center align content */
+}
+
+.cerebriu-logoname {
+width: 44px;
+height: 44px;
+}
+
+.contact-info {
+    margin-top: 2px;
+    font-size: 12px;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+}
+
+  
+  
+

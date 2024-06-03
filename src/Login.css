@@ -1,0 +1,63 @@
+.home-page{
+    background-color: black;
+    margin: -8px;
+    padding: 0px;
+}
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This will make the form center vertically on the page */
+  }
+  .login-form {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+  }
+
+    
+
+.login-form label {    
+    font-weight: bold;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+  }
+
+.login-form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* border-color: #3273dc; */
+}
+.login-form button {
+    /* width: 100%; */
+    padding: 10px;
+    font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    background-color: #363636;
+    border-color: transparent;
+    color: whitesmoke;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5;
+    border-width: 1px;
+    /* color: #363636; */
+    justify-content: center;
+    padding-bottom: calc(0.375em - 1px);
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    padding-top: calc(0.375em - 1px);
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+.login-form button:hover {
+    background-color: black;
+  }
+
+  

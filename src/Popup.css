@@ -1,0 +1,150 @@
+.popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: transparent;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+
+
+}
+.popup-inner{
+    position: relative;
+    padding: 32px;
+    width: 100%;
+    max-width: 500px;
+    background-color: #FAFAFA !important;
+    border-radius: 15px;
+}
+
+.popup-inner .close-btn{
+    position: absolute;
+    top: 16px;
+    right: 16px;
+
+}
+
+.login-form-popup {
+    width: 450px;
+    padding: 10px;
+    
+    /* border: 2px solid #ccc; */
+    /* border-radius: 0px; */
+    background-color:#FAFAFA;
+    text-align: left;
+}
+.username-spacing{
+    font-weight: bold;
+    padding: 10px;
+    padding-right: 80px;
+
+}
+.pwd-spacing{
+    font-weight: bold;
+    padding: 10px;
+    padding-right: 85px;
+
+}
+.confirm-pwd-spacing{
+    padding: 10px;
+    padding-right: 19px;
+
+}
+.textbox {
+    margin: 8px;
+}
+.add-user-button{
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.close-btn{
+    color:#FAFAFA;
+    background-color: #363636;
+}
+.error-message{
+    text-align: center;
+    font-weight: bold;
+}
+.addUser{
+    font-size: 15px !important;
+}
+
+/*For series*/
+.series-box{
+    padding-right: 27px;
+}
+.sequence-box{
+    padding-right: 58px;    
+
+}
+.textbox-dropdown {
+    margin: 8px;
+    margin-left: 7px; 
+    padding: 2px 7px;
+    
+}
+
+
+.series-description-note{
+    font-size: 10px;
+    font-weight: bold;
+    padding: 10px;
+}
+.modifytextbox-dropdown{
+    margin: 3px;
+    margin-left: -15px; 
+    padding: 1px 1px;
+
+}
+.modify-textbox {
+    margin: 8px;
+    padding-right:20px;
+
+}
+/*For scanner*/
+.scanner-box{
+    padding-right: 27px;
+
+}
+.scannerid-box{
+    padding-right: 74px;
+   
+
+}
+.newuser{
+    font-weight: bold;
+    padding: 10px;
+    padding-right:56px;
+}
+.newpassword{
+    font-weight: bold;
+    padding: 10px;
+    padding-right:60px;
+}
+.newconfirmpass{
+    font-weight: bold;
+    padding: 10px;
+    padding-right:33px;
+}
+.newseries-box{
+    padding-right: 12px;
+}
+.newsequence-box{
+    padding-right: 35px;
+}
+.newscanner-box{
+    padding-right: -1px;
+}
+.newscanner-spacing{
+    font-weight: bold;
+    padding: 10px;
+    padding-right: 19px;
+
+}

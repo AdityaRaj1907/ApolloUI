@@ -1,0 +1,37 @@
+.footer{
+    text-align: center;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem 1.5rem !important;
+    border-top: 1px solid #5c5c5c;
+    background-color: black !important;
+    
+    /* displa  */
+}
+
+
+.footer .line4{
+    /* font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif; */
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 1em;
+    padding-left: 0px;
+    line-height: 1.5;
+    text-rendering: geometricPrecision;
+    text-align: end;
+    
+}
+.version{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 12px;
+    padding: 1rem 1.5rem !important;
+    padding-left: 15px !important;
+    text-align: left !important;
+    font-family:sans-serif;
+}
